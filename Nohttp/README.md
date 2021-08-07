@@ -6,3 +6,8 @@
 ![teste](screen/use.png)
 ![teste](screen/http.png)
 ![teste](screen/no.png)
+
+
+## Install
+`wget https://raw.githubusercontent.com/kevinLyon/Bugbounty/main/Nohttp/nohttp.py .`
+>done
