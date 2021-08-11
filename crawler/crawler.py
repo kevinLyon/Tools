@@ -58,18 +58,21 @@ def crawl(pre_fix):
 
 
 if __name__ == "__main__":
-    #=== LISTS ===
+    # === LISTS === ##
     TO_CRAWL = []
     CRAWLED = set()
-    #=== LIST ===
+    ## === LIST === ##
 
-    url = sys.argv[1] #url init
-    pre_fix = sys.argv[2] #not scape to scope
+## === HTTP or HTTPS is here === ##
+    url = "https://" + sys.argv[1] + "/" #url init
+## === HTTP or HTTPS is here === ##
+
+    pre_fix = sys.argv[1] #not scape to scope
     TO_CRAWL.append(url)
     crawl(pre_fix)
 
 
     #Saving crawl
-    with open("crawler-python.txt", "a") as file:
+    with open(f"{sys.argv[1]}.txt", "a") as file:
         for url in CRAWLED:
             file.write(url + "\n")

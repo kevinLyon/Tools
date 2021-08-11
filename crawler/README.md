@@ -2,8 +2,13 @@
 
 >python 3.6 >= 
 
-`python crawler.py < url > < prefix >`
+`python crawler.py < domain >`
 
-the prefix is used so that the crawler does not go out of scope
+*at the end of the crawl the script saves everything it finds in a file with the same domain name*
 
-![sceen](screen/scree.png)
+![sceen](screen/screen.png)
+
+
+>you might be thinking, ok, but how would I do with multiple domains, hahah my friend, here's a little gift for you :)
+
+`rush -i domains.txt 'python crawler.py {}'`
