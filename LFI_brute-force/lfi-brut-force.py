@@ -20,9 +20,9 @@ def get(url, payload):
     if get.status_code == 200:
         html = get.text
         if "root:x:0:0:" in html:
-            print(f"\033[35m{get.url} --> {get.status_code}\033[m")
-        
-
+            print(f"\033[35m{get.url} --> {get.status_code}\033[m")       
+    else:
+        print(f"\033[31m{get.url} --> {get.status_code}\033[m")
 
 
 
