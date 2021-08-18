@@ -1,0 +1,111 @@
+[
+    {
+        "nome": "Twitter: Access Token",
+        "regex": "[1-9][ 0-9]+-[0-9a-zA-Z]{40}"
+    },
+    {   
+        "nome": "Facebook: Access Token",
+        "regex": "EAACEdEose0cBA[0-9A-Za-z]+"
+    },
+    {
+        "nome": "Facebook: OAuth 2.0",
+        "regex": "[A-Za-z0-9]{125} (counting letters [2])"
+    },
+    {
+        "nome": "Instagram: OAuth 2.0",
+        "regex": "[0-9a-fA-F]{7}.[0-9a-fA-F]{32}"
+    },
+    {
+        "nome": "Google: Api-key",
+        "regex": "AIza[0-9A-Za-z-_]{35}"
+    },
+    {
+        "nome": "GitHub: OAuth 2.0",
+        "regex": "[A-Za-z0-9_]{255}"
+    },
+    {
+        "nome": "Gmail: OAuth 2.0",
+        "regex": "[0-9(+-[0-9A-Za-z_]{32}.apps.qooqleusercontent.com"
+    },
+    {
+        "nome": "Foursquare: Client-key",
+        "regex": "[0-9a-zA-Z_][5,31]"
+    },
+    {
+        "nome": "Foursquare: Secret-key",
+        "regex": "R_[0-9a-f]{32}"
+    },
+    {
+        "nome": "Picatic: Api-key",
+        "regex": "sk_live_[0-9a-z]{32}"
+    },
+    {
+        "nome": "Stripe: Standard Api-key",
+        "regex": "sk_live_[0-9a-zA-Z]{24}"
+    },
+    {
+        "nome": "Stripe: Restricted Api-key",
+        "regex": "sk_live_[0-9a-zA-Z]{24}"
+    },
+    {
+        "nome": "Square: Access Token",
+        "regex": "sqOatp-[0-9A-Za-z-_]{22}"
+    },
+    {
+        "nome": "Square: OAuth Secret",
+        "regex": "q0csp-[ 0-9A-Za-z-_]{43}"
+    },
+    {
+        "nome": "Paypal / Braintree: Access Token",
+        "regex": "access_token,production$[0-9a-z]{161[0-9a,]{32}"
+    },
+    {
+        "nome": "AMS: Auth Token",
+        "regex": "amzn.mws.[0-9a-f]{8}-[0-9a-f]{4}-10-9a-f1{4}-[0-9a,]{4}-[0-9a-f]{12}"
+    },
+    {
+        "nome": "Twilio: Api-key",
+        "regex": "55[0-9a-fA-F]{32}"
+    },
+    {
+        "nome": "MailGun: Api-key",
+        "regex": "key-[0-9a-zA-Z]{32}"
+    },
+    {
+        "nome": "MailChimp",
+        "regex": "[0-9a-f]{32}-us[0-9]{1,2}"
+    },
+    {
+        "nome": "Slack: Api-key",
+        "regex": "xox[baprs]-[0-9]{12}-[0-9]{12}-[0-9a-zA-Z]{24}"
+    },
+    {
+        "nome": "Slack: Access Token",
+        "regex": "T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}"
+    },
+    {
+        "nome": "Amazon Web Services: Access Key ID",
+        "regex": "AKIA[0-9A-Z]{16}"
+    },
+    {
+        "nome": "Amazon Web Services: Secret Key",
+        "regex": "[0-9a-zA-Z/+]{40}"
+    },
+    {
+        "nome": "Google Cloud Platform: OAuth 2.0",
+        "regex": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+    },
+    {
+        "nome": "Google Cloud Platform: Api-key",
+        "regex": "[A-Za-z0-9_]{21}--[A-Za-z0-9_]{8}"
+    },
+    {
+        "nome": "Heroku: Api-key",
+        "regex": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+    },
+    {
+        "nome": "Heroku: OAuth 2.0",
+        "regex": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+    }
+
+]
